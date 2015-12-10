@@ -3,6 +3,12 @@
 # what if you cannot use additional data structure
 # Note: doesn't check spaces
 
+# run: python unique.py 'abcde'
+# out: True
+
+# run: python unique.py 'abacde'
+# out: False
+
 import sys
 
 string = sys.argv[1]
@@ -16,3 +22,6 @@ def check_unique(string):
       return(True)
 
 print check_unique(string)
+
+
+
